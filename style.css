@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Mooli&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
-nav {
-    border: 1px solid green;    
-}
-.nav-list {
-    border: 1px solid red;
+.nav-list {    
     display: flex;
     padding: 0;
     list-style: none;
@@ -22,9 +20,55 @@ nav {
 a {
     text-decoration: none;
     color: rgb(80, 60, 60);
-    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
 a:hover {
-    color:rgb(32, 15, 15);
+    color:rgb(231, 206, 206);
+    background-color: rgb(71, 66, 83);
+    border-radius: 10px;
+    padding: 5px;
 }
+.page-title {    
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.page-title h1 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 3em;
+    color: rgba(48, 42, 42, 0.9);
+}
+.page-title h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    color: rgb(48, 42, 42);
+}
+.main {    
+    width: 60%;
+    min-width: 750px;
+    margin: 0 auto;
+    display: flex;
+}
+#sec-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sec-2 .bold-text {
+    font-weight: bold;
+}
+.about {    
+    width: 60%;
+    min-width: 750px;
+    margin: 100px auto 0 auto;
+}
+#best-regards {    
+    margin-top: 150px;
+}
+#farwell {
+    margin-top: 300px;
+}
+footer {    
+    text-align: center;    
+}
+
